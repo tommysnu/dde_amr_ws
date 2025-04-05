@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-1e197dd6956f18ec90e7ad1cdc56c56d CMakeFiles/dde_amr_controller_uninstall

@@ -1,6 +1,0 @@
-Invoking command in '/home/tommyu22/dde_amr_ws/src/build/dde_amr_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tommyu22/dde_amr_ws/src/dde_amr_description -DCMAKE_INSTALL_PREFIX=/home/tommyu22/dde_amr_ws/src/install/dde_amr_description
-Invoked command in '/home/tommyu22/dde_amr_ws/src/build/dde_amr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tommyu22/dde_amr_ws/src/dde_amr_description -DCMAKE_INSTALL_PREFIX=/home/tommyu22/dde_amr_ws/src/install/dde_amr_description
-Invoking command in '/home/tommyu22/dde_amr_ws/src/build/dde_amr_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tommyu22/dde_amr_ws/src/build/dde_amr_description -- -j28 -l28
-Invoked command in '/home/tommyu22/dde_amr_ws/src/build/dde_amr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tommyu22/dde_amr_ws/src/build/dde_amr_description -- -j28 -l28
-Invoking command in '/home/tommyu22/dde_amr_ws/src/build/dde_amr_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tommyu22/dde_amr_ws/src/build/dde_amr_description
-Invoked command in '/home/tommyu22/dde_amr_ws/src/build/dde_amr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tommyu22/dde_amr_ws/src/build/dde_amr_description
