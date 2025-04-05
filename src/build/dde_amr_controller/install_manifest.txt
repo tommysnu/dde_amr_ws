@@ -1,0 +1,15 @@
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/ament_index/resource_index/package_run_dependencies/dde_amr_controller
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/ament_index/resource_index/parent_prefix_path/dde_amr_controller
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/environment/ament_prefix_path.sh
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/environment/ament_prefix_path.dsv
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/environment/path.sh
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/environment/path.dsv
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/local_setup.bash
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/local_setup.sh
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/local_setup.zsh
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/local_setup.dsv
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/package.dsv
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/ament_index/resource_index/packages/dde_amr_controller
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/cmake/dde_amr_controllerConfig.cmake
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/cmake/dde_amr_controllerConfig-version.cmake
+/home/tommyu22/dde_amr_ws/src/install/dde_amr_controller/share/dde_amr_controller/package.xml

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Copy from MirRbot and
+Modified by TommyTo (tommy@datadesign.engineering)
+For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="dde_amr" xmlns:xacro="http://ros.org/wiki/xacro">
+    <!-- Wheels -->
+    <gazebo reference="left_wheel_link">
+        <mu1>1000000000000000.0</mu1>
+        <mu2>1000000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir1>1 0 0</fdir1>
+    </gazebo>
+
+    <gazebo reference="right_wheel_link">
+        <mu1>1000000000000000.0</mu1>
+        <mu2>1000000000000000.0</mu2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir1>1 0 0</fdir1>
+    </gazebo>
+
+    <!-- Caster Wheels -->
+    <gazebo reference="caster_one_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>1.0</maxVel>
+    </gazebo>
+
+    <gazebo reference="caster_wheel_link">
+        <mu1>0.1</mu1>
+        <mu2>0.1</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>1.0</maxVel>
+    </gazebo>
+
+    <gazebo>
+        <xacro:if value="$(arg_is_ignition)">
+            <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+                <parameters>
+
+                </parameters>
+            </plugin>
+        </xacro:if>
+
+        <xacro:unless value="$(arg_is_ignition)">
+            <plugin filename="gz_ros2_control-system"
+                name="gz_ros2_control::IgnitionROS2ControlPlugin">
+                <parameters>
+                    
+                </parameters>
+            </plugin>
+        </xacro:unless>
+    </gazebo>
+</robot>

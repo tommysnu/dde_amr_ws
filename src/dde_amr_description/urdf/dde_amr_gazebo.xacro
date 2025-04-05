@@ -42,4 +42,19 @@ For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
         <minDepth>0.001</minDepth>
         <maxVel>1.0</maxVel>
     </gazebo>
+
+    <gazebo>
+        <xacro:if value="$(arg is_ignition)">
+            <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+                <parameters>$(find dde_amr_controller)/config/dde_amr_controllers.yaml</parameters>
+            </plugin>
+        </xacro:if>
+
+        <xacro:unless value="$(arg is_ignition)">
+            <plugin filename="gz_ros2_control-system"
+                name="gz_ros2_control::IgnitionROS2ControlPlugin">
+                    <parameters>$(find dde_amr_controller)/config/dde_amr_controllers.yaml</parameters>
+            </plugin>
+        </xacro:unless>
+    </gazebo>
 </robot>

@@ -1,0 +1,9 @@
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/uninstall.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/dde_amr_controller_uninstall.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/test.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/edit_cache.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/rebuild_cache.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/list_install_components.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/install.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/install/local.dir
+/home/tommyu22/dde_amr_ws/src/build/dde_amr_controller/CMakeFiles/install/strip.dir
