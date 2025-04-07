@@ -8,6 +8,8 @@ For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 
     <!-- Include Gazebo Parameters -->
     <xacro:include filename="$(find dde_amr_description)/urdf/dde_amr_gazebo.xacro"/>
+    <!-- ROS 2 Control -->
+    <xacro:include filename="$(find dde_amr_description)/urdf/dde_amr_ros2_control.xacro"/>
     <!--<link name="base_footprint" /> -->
     <!-- Setting link for base_link-->
     <link name="base_link">
